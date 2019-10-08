@@ -7,6 +7,8 @@ echo '我爱你中国' > ./data/input.txt
 
 BERT_BASE_DIR=./model
 
+# https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip
+
 python extract_features.py \
   --input_file=./data/input.txt \
   --output_file=./data/output.jsonl \
